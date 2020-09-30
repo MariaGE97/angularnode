@@ -1,0 +1,20 @@
+<div class="table-responsive">
+<table class="table table-bordered table-hover">
+    <thead class="thead-light">
+      <tr>
+        <th>USUARIO</th>
+        <th>EMAIL</th>
+        <th>NOMBRE</th>
+        <th>APELLIDOS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let u of Usuarios">
+        <th>{{u.usuario}}</th>
+        <td>{{u.email}}</td>
+        <td>{{u.nombre}}</td>
+        <td>{{u.apellidos}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
